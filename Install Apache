@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+    - apt:
+        name: apache2 
+        state: latest
+      become: yes
+      become_method: sudo
+    - service:
+        name: apache2
+        state: started
+      become: yes
+      become_method: sudo
