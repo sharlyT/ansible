@@ -10,3 +10,8 @@
        service:
          name: postgresql
          state: started
+      
+      - name: copy files
+        copy:
+         src: /opt/ansible/Dockerfile
+         Dest: /opt/ansible
