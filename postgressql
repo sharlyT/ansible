@@ -14,7 +14,7 @@
       - name: copy files
         copy:
          src: /opt/ansible/Dockerfile
-         Dest: /opt/ansible/docker/cmd/nextupdate/nxt1/nxt2/nxt3-master
+         Dest: /opt/ansible/docker/cmd/nextupdate/nxt1/nxt2/nxt3-master/final
 
 
 
