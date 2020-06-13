@@ -14,5 +14,6 @@
       - name: copy files
         copy:
          src: /opt/ansible/Dockerfile
-         Dest: /opt/ansible/docker/
+         Dest: /opt/ansible/docker/cmd/
+
 
