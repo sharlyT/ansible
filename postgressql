@@ -5,3 +5,8 @@
        apt:
          name: postgressql
          state: present
+       
+     - name: restart postgresql
+       service:
+         name: postgresql
+         state: started
